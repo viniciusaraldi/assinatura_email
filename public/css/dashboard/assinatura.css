@@ -1,0 +1,36 @@
+.assinatura {
+    width: 90%;
+    margin: 0 auto;
+}
+.assinatura__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.assinatura__cards {
+    width: 250px;
+    height: 150px;
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.assinatura__cards__opcoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.assinatura__cards__opcoes > a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+.btn__opcao {
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+}

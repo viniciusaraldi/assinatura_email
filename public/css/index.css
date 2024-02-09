@@ -1,0 +1,41 @@
+@import url('login/formLogin.css');
+@import url('dashboard/dashboard.css');
+@import url('dashboard/assinatura.css');
+@import url('dashboard/editAssinatura.css');
+@import url('font.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-blue: #166491;
+    --color-orange: #e0794c;
+    --color-gray: gray;
+    --color-danger: #dc3545;
+
+    --font-normalidad: 'Normalidad Wide';
+}
+html {
+    scroll-behavior: smooth;
+}
+body, html {
+    font-size: 16px;
+    font-family: var(--font-normalidad);
+    background-color: var(--cor-fundo);
+    font-weight: 400;
+    height: 100%;
+}
+main {
+    width: auto;
+}
+li {
+    list-style-type: none;
+}

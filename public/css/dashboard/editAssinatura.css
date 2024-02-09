@@ -1,0 +1,38 @@
+.container__detail__assinatura {
+    width: 100%;
+    margin: 3em auto;
+}
+button#downloadoAssinatura {
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+}
+.box__assinatura__show {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-normalidad);
+}
+.colaborador__info__assinatura2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    align-items: flex-start;
+}
+.colaborador__info__assinatura1 {
+    position: absolute;
+    right: 20%;
+}
+.colaborador__info__assinatura3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    position: absolute;
+    right: 27%;
+    align-items: flex-start;
+}
